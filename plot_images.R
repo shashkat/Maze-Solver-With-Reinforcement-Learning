@@ -3,7 +3,6 @@ library(ggplot2)
 library(reshape2)
 library(glue)
 library(gganimate)
-library(gapminder)
 
 # get the arguments given as input (which are the timepoints for which for which we want to create an animation)
 args <- commandArgs(trailingOnly = TRUE)
